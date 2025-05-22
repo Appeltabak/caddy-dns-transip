@@ -1,9 +1,9 @@
 package template
 
 import (
+	"github.com/Appeltabak/transip"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	transip "github.com/libdns/transip"
 )
 
 // Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
